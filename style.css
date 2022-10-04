@@ -1,0 +1,41 @@
+* {
+    font-family: 'Gilroy',sans-serif;
+    transition: 0.3s all;
+    font-weight: 600;
+}
+#app { 
+width: 200px;
+box-shadow: 0 3px 15px grey;
+}
+input[type="text"] {
+    width: 200px;
+    border: 0;
+    color: #243839;
+    font-size: 18px;
+    padding: 7px 5px;
+    text-align: right;
+}
+.grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 105%;
+}
+
+.cell {
+    flex: 33%;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+}
+.cell:hover{
+background-color: seagreen;
+}
+.num {
+    background-color: #243852;
+    color: #ffd;
+    font-weight: 400;
+}
+.op {
+    background-color: #182532;
+}
